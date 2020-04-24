@@ -1,5 +1,5 @@
 # DevToolReader
-Parses Indexeddb files - used to extract devtools console history
+Parses Indexeddb files - used to extract devtools console history. Blog post here: https://phl4nk.wordpress.com/2020/04/24/the-curious-case-of-firefoxs-devtools-storage/
 
 ### Usage
 ```sh
