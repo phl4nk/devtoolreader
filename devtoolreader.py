@@ -28,7 +28,7 @@ def write_to_file(data, filename):
     print("[+] File written")
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Parses Indexeddb files from firefox;pp')
+    parser = argparse.ArgumentParser(description='Parses Indexeddb files from firefox;')
     parser.add_argument('indexeddb_file', action="store", help='IndexedDB file to parse')
     parser.add_argument('-s', action="store_true", default=False, help='Srip the file of any control characters')
     parser.add_argument('-o', action="store", dest='output_file', default="output.txt", help='Set the output file name')
